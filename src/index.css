@@ -25,6 +25,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
+  background-color: #1a1034;
 
   @media (max-width: 1024px) {
     font-size: 16px;

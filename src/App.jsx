@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import { Head } from '/src/assets/Components/Header/Header.jsx'
+import { Head } from './assets/Components/Header/Header.jsx'
+import { Body } from './assets/Components/Body/body.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Head />
+      <Body />
     </>
   )
 }
